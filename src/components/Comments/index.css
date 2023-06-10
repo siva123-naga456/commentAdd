@@ -1,0 +1,85 @@
+/* Write your CSS here */
+.main-container {
+  height: 100vh;
+  padding: 36px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.heading {
+  font-family: Roboto;
+  font-size: 32px;
+  color: #1e293b;
+}
+.para {
+  font-family: Roboto;
+  font-size: 14px;
+  color: #475569;
+}
+.form-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-right: 40px;
+}
+.name-input {
+  height: 30px;
+  width: 220px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #cbd2d9;
+  outline: none;
+  font-size: 12px;
+  font-family: Roboto;
+  padding: 8px;
+}
+.comment-input {
+  height: 100px;
+  width: 210px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #cbd2d9;
+  outline: none;
+  font-size: 12px;
+  font-family: Roboto;
+  padding: 8px;
+}
+.image {
+  width: 200px;
+  height: 160px;
+  margin-left: 56px;
+}
+.btn {
+  background-color: #0284c7;
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 12px;
+  font-family: Roboto;
+  height: 26px;
+  width: 90px;
+  border: none;
+}
+.addComment-container {
+  border: none;
+  border-top: 1px solid #cbd2d9;
+  font-size: 12px;
+  font-family: Roboto;
+  color: #1e293b;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+.comment-btn {
+  width: 20px;
+  height: 20px;
+  font-size: 8px;
+  background-color: #0284c7;
+  border-radius: 4px;
+  color: #ffffff;
+  margin-right: 6px;
+
+  border: none;
+}
